@@ -1,4 +1,7 @@
 <?php
+	
+namespace Ascension;
+	
 /**
  * Class for SurveyMonkey API v2
  * @package default
