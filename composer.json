@@ -6,7 +6,7 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-0": { "Asecension": "" }
+        "psr-0": { "Ascension": "" }
     },
     "license": "MIT",
     "authors": [
