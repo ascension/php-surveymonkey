@@ -371,4 +371,4 @@ class SurveyMonkey{
  * A basic class for SurveyMonkey Exceptions.
  * @package default
  */
-class SurveyMonkey_Exception extends Exception {}
+class SurveyMonkey_Exception extends \Exception {}
