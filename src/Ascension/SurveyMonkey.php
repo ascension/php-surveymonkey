@@ -365,6 +365,19 @@ class SurveyMonkey{
     $params['survey_id'] = $surveyId;
     return $this->run('batch/send_flow', $params);
   }
+
+  /**
+   * Add recipients to a collector and optionally email them the survey
+   * @see https://developer.surveymonkey.com/docs/methods/create_recipients/
+   * @param string $collectorId Collector ID
+   * @param array $params array of other parameters
+   * @return array Results
+   */
+  public function createRecipients($collectorId, $params = array())
+  {
+    $params['collector_id'] = $collectorId;
+    return $this->run('collectors/create_recipients', $params);
+  }
 }
 
 /**
