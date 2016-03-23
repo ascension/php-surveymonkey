@@ -172,6 +172,18 @@ public function createFlow($surveyTitle, $params = array()){}
 public function sendFlow($surveyId, $params = array()){}
 ```
 
+**createRecipients**
+```
+/**
+ * Add recipients to a collector and optionally email them the survey
+ * @see https://developer.surveymonkey.com/docs/methods/create_recipients/
+ * @param string $collectorId Collector ID
+ * @param array $params array of other parameters
+ * @return array Results
+ */
+public function createRecipients($collectorId, $params = array())
+```
+
 API version
 -----------
 v2
